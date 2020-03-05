@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LangleyFoxall\\LaravelNISTPasswordRules\\": "src/"
+            "PL38\\LaravelNISTPasswordRules\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LangleyFoxall\\LaravelNISTPasswordRules\\ServiceProvider"
+                "PL38\\LaravelNISTPasswordRules\\ServiceProvider"
             ]
         }
     }
