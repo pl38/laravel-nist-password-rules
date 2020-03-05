@@ -10,23 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "laravel/framework": "^7.0",
         "divineomega/laravel-password-exposed-validation-rule": "^3.0.1"
-    },
-    "require-dev": {
-        "fzaninotto/faker": "^1.6",
-        "php-coveralls/php-coveralls": "^2.0",
-        "orchestra/testbench": "^3.4"
     },
     "autoload": {
         "psr-4": {
             "LangleyFoxall\\LaravelNISTPasswordRules\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "LangleyFoxall\\LaravelNISTPasswordRules\\Tests\\": "tests/"
         }
     },
     "extra": {
